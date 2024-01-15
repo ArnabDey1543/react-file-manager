@@ -1,5 +1,7 @@
 # React-File-Manager
 
+
+
 ## Features
 ### User Authentication
 1. Sign Up: Users should be able to create an account by providing a valid email address and password.
