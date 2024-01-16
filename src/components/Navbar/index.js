@@ -21,13 +21,13 @@ const NavbarComponent = () => {
   };
 
   return (
-    <Navbar bg="dark" expand="lg" variant="dark">
+    <Navbar bg="warning"  expand="lg" variant="dark">
       <Navbar.Brand
         as={Link}
         to="/"
         style={{ marginLeft: "60px", marginRight: "auto" }}
       >
-        File Management System
+        React-File-Manager
       </Navbar.Brand>
       <Nav style={{ marginRight: "60px" }}>
         {isLoggedIn ? (

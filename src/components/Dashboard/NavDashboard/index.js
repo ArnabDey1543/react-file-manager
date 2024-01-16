@@ -32,7 +32,7 @@ const NavDashboard = () => {
         to="/"
         style={{ marginLeft: "60px", marginRight: "auto" }}
       >
-        File Management System
+        React-File-Manager
       </Navbar.Brand>
       <Nav style={{ marginRight: "60px" }}>
         {isLoggedIn ? (

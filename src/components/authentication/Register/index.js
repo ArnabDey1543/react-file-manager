@@ -95,7 +95,7 @@ const Register = () => {
             </Form.Group>
             <Form.Group controlId="formBasicBtn" className="mt-3">
               <Button
-                variant="primary"
+                variant="warning"
                 type="submit"
                 className="form-control"
                 block

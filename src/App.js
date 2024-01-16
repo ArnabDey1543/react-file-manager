@@ -28,7 +28,12 @@ const App = () => {
       <Switch>
         <Route exact path={"/"}>
           <NavbarComponent />
-          <h1>Welcome to file management system</h1>
+          <p class="font-monospace">
+    
+          <h2>Welcome to File-Manager.
+            Get organised and stay productive
+          </h2>
+          </p>
         </Route>
         <Route exact path="/login" component={() => <Login />}></Route>
         <Route exact path="/signup" component={() => <Register />}></Route>
